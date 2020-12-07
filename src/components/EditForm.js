@@ -15,6 +15,7 @@ const customStyles = {
     height: "50px",
     width: "380px",
     margin: "auto",
+    textAlign: "center",
   },
 };
 
