@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.task {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  background-color: gray;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.add-task {
+  background-color: #536172;
+  width: 800px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 20px;
+}
